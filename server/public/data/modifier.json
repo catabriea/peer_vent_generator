@@ -1,12 +1,13 @@
 {
-  "mod1":{
-    "modadj": "super"
-  },
-  "mod2": {
-    "modadj": "great"
-  },
-  "mod3" :{
-    "modadj": "awesome"
-  }
-}
+  "1": "Really",
+  "2": "Super",
+  "3": "Totally",
+  "4": "Radically",
+  "5": "Hideously",
+  "6": "Terrifyingly",
+  "7": "Dramatically",
+  "8": "Lamely",
+  "9": "Terribly",
+  "10": "Exhaustingly"
 
+}
