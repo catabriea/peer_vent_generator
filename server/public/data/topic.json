@@ -1,11 +1,12 @@
 {
-  "topics1": {
-    "top": "Logic"
-  },
-  "topics2": {
-    "top": "Arrays"
-  },
-  "topics3": {
-    "top": "Bootstrap"
-  }
+  "1": "Objects",
+  "2": "Gamma Cohort",
+  "3": "Teal Walls",
+  "4": "Prime Academy Fridge",
+  "5": "Bootstrap",
+  "6": "Foam Cubes",
+  "7": "Swivel Chairs",
+  "8": "any other cohort",
+  "9": "Instructors",
+  "10": "Ajax Calls"
 }
