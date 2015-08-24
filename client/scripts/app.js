@@ -9,7 +9,7 @@ function getPhraseData(){
     $.ajax({
         url: "/data",
         beforeSend:function(){
-            $(".container").append("<p id='generating'>Generating smart ass vent!</p>");
+            $(".container").append("<p id='generating'>Generating a smart ass vent!</p>");
         },
         success: function (data) {
             appendPhraseToDom(data);
@@ -22,9 +22,11 @@ function getPhraseData(){
 }
 
 function appendPhraseToDom(data){
-    var phrase = [];
-    phrase.push(data);
-    $(".container").append("<div>" + data[0].modadj + " " + data[0].adj +" " +  data[0].top + "</div>");
+    $(".container").children().remove();
+    $(".container").append("<div>" + data +"</div>");
+    //var phrase = [];
+    //phrase.push(data);
+    //$(".container").append("<div>" + data[0].modadj + " " + data[0].adj +" " +  data[0].top + "</div>");
 
 }
 
@@ -34,6 +36,7 @@ $(document).ready(function () {
            getPhraseData();
        });
 
+});
 
 
     //$(".phrase-button").on('click', function(){
@@ -41,5 +44,3 @@ $(document).ready(function () {
     //    appendToContainer();
     //});
 
-
-});
