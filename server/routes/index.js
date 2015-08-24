@@ -10,7 +10,7 @@ router.get('/data', function(req, res){
 
 
 router.get("/*", function(req,res){
-    console.log("Here is a console log");
+    console.log("Router has processed get for index");
     var file = req.params[0] || 'views/index.html';
     res.sendFile(path.join(__dirname, '../public/', file));
 });
