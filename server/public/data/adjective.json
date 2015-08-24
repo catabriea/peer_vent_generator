@@ -1,11 +1,12 @@
 {
-  "adjective1": {
-    "adj": "Lame"
-  },
-  "adjective2": {
-    "adj": "Boring"
-  },
-  "adjective3": {
-    "adj": "Sucky"
-  }
+  "1": "Homely",
+  "2": "Filthy",
+  "3": "Wild",
+  "4": "Silly",
+  "5": "Disturbing",
+  "6": "Fierce",
+  "7": "Somber",
+  "8": "Troubling",
+  "9": "Wicked",
+  "10": "Nasty"
 }
